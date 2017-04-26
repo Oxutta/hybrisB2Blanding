@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,300italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 38px;
+  font-weight: 200;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+}
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+}
+.menu .navbar-default {
+  background: none;
+  border-color: transparent;
+  margin-bottom: 0;
+  text-align: center;
+}
+.menu .navbar-default .navbar-nav > li > a {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  color: #666;
+  padding: 5px 15px;
+}
+.menu .navbar-default .navbar-nav > li > a:hover {
+  color: #f48e5c;
+}
+.menu .navbar-nav {
+  float: none;
+  display: inline-block;
+}
+.menu .navbar {
+  min-height: 0;
+}
+header {
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.96);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+header .logo {
+    display: block;
+    float: left;
+}
+.logo-hybris {
+    height: 18px;
+    width: 195px;
+    float: left;
+    margin-top: -6px;
+    margin-left:100px;
+}
+header .social-info {
+  margin-bottom: 0;
+  padding-top: 8px;
+  text-align: right;
+}
+header .social-info li {
+  display: inline-block;
+}
+header .social-info li:first-child a {
+  border-left: 1px solid #dedede;
+}
+header .social-info li a {
+  color: #aeaeae;
+  padding: 3px 8px;
+  border-right: 1px solid #dedede;
+}
+header .social-info li a:hover {
+  color: #f48e5c;
+}
+#banner .marketing-banner {
+  position: relative;
+  padding: 80px 0 112px 0;
+}
+#banner .app-img {
+  padding-top: 10px;
+}
+#banner .block > p {
+  margin-bottom: 65px;
+}
+#banner .block {
+  padding-top: 10px;
+}
+#banner .block h1 {
+  margin-bottom: 30px;
+  line-height: 55px;
+  color: #262b31;
+  font-weight: 300;
+}
+#banner .block p {
+  font-size: 20px;
+  color: #999;
+  font-weight: 300;
+}
+
+#service {
+  padding: 30px 0;
+}
+#service .service-wrapper {
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0 60px 0;
+}
+#service .block {
+  text-align: center;
+}
+#service .block p {
+  width: 107px;
+  height: 107px;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 1px solid #dedede;
+  text-align: center;
+    display:inline-block;
+    line-height:107px;
+    margin: 20px 20px 0 20px;
+}
+#service .block h3 {
+  color: #555;
+  font-weight: 300;
+}
+#service .block p {
+  color: #666;
+}
+#feature {
+  padding: 20px 0 40px 0;
+  background: #f6f6f7;
+}
+#feature .title {
+  font-weight: 300;
+}
+#feature .feature-item {
+  margin-top: 25px;
+}
+#feature .feature-item:first-child {
+  margin-top: 0;
+}
+#feature .feature-item .icon {
+  padding-right: 22px;
+  width: 52px;
+}
+#feature .feature-item .icon i {
+  color: #f48e5c;
+  font-size: 30px;
+}
+#feature .feature-item h4 {
+  color: #f48e5c;
+  margin-bottom: 0;
+  margin-bottom: 8px;
+}
+#feature .block {
+  text-align: center;
+}
+#feature .block img {
+  display: inline-block;
+}
+#utility {
+  background: #f6f6f7;
+  padding: 20px 0 30px 0;
+}
+#utility .block h2 {
+  padding-top: 70px;
+  color: #444;
+}
+#utility .block p {
+  line-height: 32px;
+  color: #7c828b;
+  font-size: 16px;
+}
+#utility-2 {
+  padding: 40px 0 10px 0;
+}
+
+#utility-2 .block h2 {
+  color: #666;
+}
+#utility-2 .block p {
+  line-height: 32px;
+
+  font-size: 16px;
+}
+#subscribe .block {
+  padding: 0 0 40px 0;
+}
+#subscribe p {
+  color: #96908E;
+}
+#subscribe .form-inline {
+  padding-top: 16px;
+}
+#subscribe .form-inline .form-group {
+  position: relative;
+}
+#subscribe .form-inline .form-group input {
+  width: 340px;
+  padding: 20px 0px 20px 15px;
+  border-radius: 0;
+  background: white;
+  border: 1px solid #d4d4d4;
+  border: 1px solid #d1d1d1;
+  box-shadow: none;
+}
+#subscribe .form-inline .form-group input:hover,
+#subscribe .form-inline .form-group input:active,
+#subscribe .form-inline .form-group input:focus {
+  box-shadow: none;
+}
+#subscribe .form-inline i {
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+}
+#subscribe .btn-signup {
+  background: #77c344;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  margin-left: -4px;
+  border: 1px solid transparent;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+#subscribe .btn-signup:hover {
+  background: #fff;
+  border: 1px solid #77c344;
+}
+
+#contact {
+  background: #f9f9f9;
+  border-top: 1px solid #e8e8e8;
+  padding: 10px 0 20px;
+}
+#contact h2 {
+    margin-bottom:25px;
+}
+#contact address .fa {
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+#contact a, #contact a:hover {
+    color:#333;
+}
+#map {
+    height: 302px;
+    width: 100%;
+    margin-top: 20px;
+}
+.marketing-banner {
+    background: url("../images/HybrisMarketing1.jpg") no-repeat right bottom;
+}
+.color-text {
+    color:#f48e5c;
+    font-weight:normal;
+}
+#utility-2 .container {
+    border-top: 1px solid #dedede;
+    padding: 55px 0;
+}
+.feature-item  {
+    font-weight: normal;
+}
+#subscribe {
+    padding-bottom:60px;
+}
+#subscribe .item-inner {
+    border:1px solid #dedede;
+    padding:15px 15px;
+    text-align: center;
+    height: 165px;
+}
+#subscribe .fa {
+    font-size:30px;
+    margin-bottom:15px;
+}
